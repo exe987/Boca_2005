@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo3.png" type="image/x-icon">
+    <title>Boca, Segundo semestre 2005</title>
+    <!--ESTILOS-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!--ARCHIVOS JS-->
+    <script type="text/javascript" src="JS/jquery-3.5.1.min.js"></script>
+    <script src="JS/contacto.js"></script>
+    
+</head>
+
+<body>
+    <!--CABECERA-->
+    <header class="cabecera">
+        <div class="logo">
+            <h1><a href="index.html">BOCA</a></h1>
+            <h2>2005</h2>
+        </div>
+        <nav id="navega">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="indumentaria.html">INDUMENTARIA y PLANTEL</a></li>
+                <li><a href="fixture.html">FIXTURE</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <div id="menu" class="btn-menu">
+          
+        </div>
+    </header>
+    <!--SLIDER-->
+    <div id="slider">
+        <div id="fondo_form">
+            <h2>SI TENES ALGUNA CAMISETA DE LA EPOCA, CONTACTAME!!!</h2>
+               <form id="form" method="POST" onsubmit="return false">
+                <!-- onsubmit return false es para q no redireccione es para probar-->
+              
+                <p>
+                    <input data-validation="lenght" id="name" type="text" name="name" placeholder="NOMBRE Y APELLIDO">
+                    <span id="error">INGRESE NOMBRE Y APELLIDO CORRECTAMENTE!!!</span>
+                </p>
+            
+                <p>
+                    <input type="email" name="mail" id="mail" placeholder="E-mail" data-validation="email">
+                    <span id="error1">INGRESE E-MAIL CORRECTAMENTE!!!</span>
+                </p>
+               
+                <p>
+                    <input type="tel" name="telefono" id="telefono" placeholder="TELEFONO" data-validation="number">
+                    <span id="error2">INGRESE TELEFONO CORRECTAMENTE!!!</span>
+                </p>
+                
+               
+                <input type="submit" id="btn" value='ENVIAR'>
+            </form>
+        </div>
+     
+     </div>
+        <!--BOTON TOP SCROLL-->
+        <div id="sube">
+            <a href="#"><img src="./images/flecha arriba.svg" alt="a"></a>
+           </div>
+    <!--MENU LATERAL FIXED-->
+    <div id="network">
+        <a href="#"><img src="./images/aa.svg" alt="a"></a>
+        <a href="#"><img src="./images/bb.svg" alt="b"></a>
+        <a href="#"><img src="./images/cc.svg" alt="c"></a>
+        <a href="#"><img src="./images/dd.svg" alt="d"></a>
+        <a href="#"><img src="./images/ee.svg" alt="e"></a>
+    </div>
+    <div id="centrar">
+           <div id="blog">
+            <section>
+              
+            </section>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <footer class="foot">
+        <div id="redes">
+            <a href="#"><img src="./images/aa.svg" alt="a"></a>
+            <a href="#"><img src="./images/bb.svg" alt="b"></a>
+            <a href="#"><img src="./images/cc.svg" alt="c"></a>
+            <a href="#"><img src="./images/dd.svg" alt="d"></a>
+            <a href="#"><img src="./images/ee.svg" alt="e"></a>
+        
+        </div>
+        <div id="biblio">
+            <a href="https://www.bocajuniors.com.ar"><img src="images/logo2.png" alt="logo"></a>
+            <h4> ©DESARROLLADO POR ANGEL EXEQUIEL SOTO</h4>
+        </div>
+    </footer>
+</body>
+</html>
